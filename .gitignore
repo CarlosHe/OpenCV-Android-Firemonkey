@@ -32,7 +32,6 @@
 *.bpl
 *.bpi
 *.dcp
-*.so
 *.apk
 *.drc
 *.map
@@ -41,7 +40,6 @@
 *.tds
 *.dcu
 *.lib
-*.a
 *.o
 *.ocx
 
