@@ -1,0 +1,37 @@
+object MainView: TMainView
+  Left = 0
+  Top = 0
+  ClientHeight = 675
+  ClientWidth = 422
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object ButtonConvRGBToGray: TButton
+    Align = Top
+    Size.Width = 422.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Cam'
+    OnClick = ButtonConvRGBToGrayClick
+  end
+  object ImageCam: TImage
+    MultiResBitmap.Height = 822
+    MultiResBitmap.Width = 1200
+    MultiResBitmap = <
+      item
+      end>
+    Align = Client
+    Size.Width = 422.000000000000000000
+    Size.Height = 618.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Camera: TCameraComponent
+    OnSampleBufferReady = CameraSampleBufferReady
+    Left = 72
+    Top = 112
+  end
+end
