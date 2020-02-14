@@ -94,7 +94,7 @@ initialization
 TJOpenCVLoader.JavaClass.initDebug;
 ```
 
-**Good! Now you ready to use OpenCV no Android**
+**Good! Now you ready to use OpenCV on Android**
 
 ## Authors
 
